@@ -1,6 +1,6 @@
-#!/bin/bash -x
+#!/bin/bash 
 
-# Display a message for each word
+# Display a message for each word and convert to upper case
 echo "enter the Component Name"
 read COMPONENT
 COMPONENT=${COMPONENT^^}
